@@ -1,0 +1,39 @@
+@import url('./src/css/fonts/siyamrupali/stylesheet.css');
+@import url('./src/css/fonts/kalpurush/stylesheet.css');
+
+::selection {
+    color: rgb(219, 134, 23);
+    background: rgb(74, 80, 88);
+}
+
+* {
+        margin: 0px;
+        background-color: rgb(74, 80, 88)
+    }
+
+    #mainTextarea {
+        background: white;
+        border: 0px;
+        box-shadow: 1px 10px 39px -5px rgba(0, 0, 0, 0.78);
+    }
+
+    #wrapper {
+        width: 70%;
+        height: 70%;
+    }
+
+    #mainTextarea{
+        resize: none;
+        background-color: rgb(243, 243, 243);
+        width: 94%;
+        height: 89%;
+        padding: 50px;
+        border-radius: 4px;
+        outline: none;
+        font-family: 'kalpurush';
+        font-size: 1.1rem;
+        line-height: 130%;
+        color: rgb(74, 80, 88);
+    }
+
+ 
